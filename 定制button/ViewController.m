@@ -23,8 +23,7 @@
         button *buton =[[button alloc]initWithFrame:CGRectMake(20+i*(80+20), 100, 70, 70)];
         [self.view addSubview:buton];
     }
-//    button *buton =[[button alloc]initWithFrame:CGRectMake(30, 100, 70, 70)];
-//    [self.view addSubview:buton];
+   
     
 }
 
@@ -33,4 +32,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)OnClick:(id)sender {
+    NSLog(@"1");
+}
 @end
